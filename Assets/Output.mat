@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Output
+  m_Shader: {fileID: 4800000, guid: 76fb50a7724512b408d31312e8f89a14, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EighthSourceTex:
+        m_Texture: {fileID: 8400000, guid: a43b8bdbc74388840992024dd6b8d602, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EleventhSourceTex:
+        m_Texture: {fileID: 8400000, guid: d19625896373db747850480cb4a8ae89, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FifteenthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 2000f74728486004c8e767a97d03bbba, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FifthSourceTex:
+        m_Texture: {fileID: 8400000, guid: a211a72ca6dd3d443a9d17cc4104724e, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FirstSourceTex:
+        m_Texture: {fileID: 8400000, guid: 1bcda7322c0ce81409f3dc2e3d8117db, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FourteenthSourceTex:
+        m_Texture: {fileID: 8400000, guid: dc24464a75fbdbf40938b853fbd39226, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FourthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 811cf76a18ab8844aacf94ee0f804254, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: 9f091307fed80464e81c4a1490d55a23, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MyArr:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NinthSourceTex:
+        m_Texture: {fileID: 8400000, guid: e3478da9019f2934a9989e1a5801710b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondSourceTex:
+        m_Texture: {fileID: 8400000, guid: 0eb741df39c632949beacc56d6a0bb01, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SeventhSourceTex:
+        m_Texture: {fileID: 8400000, guid: ae2f3429575d8c24c84cf764ab97f0c1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SixteenthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 4aa3e256a21ca1e41a47f4347d71e2de, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SixthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 3062bbff95b694f4fbea2f79eda09d1f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TenthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 2236617c4f389b1498c5b44fba2f8db9, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdSourceTex:
+        m_Texture: {fileID: 8400000, guid: 24b2d80469e29ab44bc2f4d04386a114, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirteenthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 6cdef26a0788a32429973dde3fcf4b3d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TwelvthSourceTex:
+        m_Texture: {fileID: 8400000, guid: 52f2798a5207e80409e23db90641cd22, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseGain: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ScreenHeight: 1080
+    - _ScreenWidth: 1920
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
