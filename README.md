@@ -12,4 +12,4 @@ With high frequency displays and realtime rendered content, the user just sees a
 
 ### License
 
-This project is made availble under either the MIT or public domain licenses.
+This project is made availble under either the MIT or public domain licenses. Choose whichever you prefer.
