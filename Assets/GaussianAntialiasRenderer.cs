@@ -14,6 +14,9 @@ public class GaussianAntialiasRenderer : MonoBehaviour
     private Shader shader;
     private bool antialiasingEnabled = true;
     private bool using1080 = true;
+    public TMPro.TextMeshProUGUI text;
+    private readonly string onString = "ON";
+    private readonly string offString = "OFF";
 
     private void Awake()
     {
@@ -56,7 +59,7 @@ public class GaussianAntialiasRenderer : MonoBehaviour
             {
                 cameraJitters[i].enabled = antialiasingEnabled;
             }
-            UpdateTextures();         
+            UpdateTextures();
         }
 
         if (Input.GetKeyDown(KeyCode.N))
@@ -64,7 +67,7 @@ public class GaussianAntialiasRenderer : MonoBehaviour
             using1080 = !using1080;
             if (using1080)
             {
-                renderTextures = renderTextures1080;
+                renderTextures = renderTextures1080;                
             }
             else
             {
@@ -97,6 +100,8 @@ public class GaussianAntialiasRenderer : MonoBehaviour
             renderer.material.SetTexture("_FourteenthSourceTex", renderTextures[13]);
             renderer.material.SetTexture("_FifteenthSourceTex", renderTextures[14]);
             renderer.material.SetTexture("_SixteenthSourceTex", renderTextures[15]);
+
+            text.text = onString;
         }
         else
         {
@@ -117,6 +122,8 @@ public class GaussianAntialiasRenderer : MonoBehaviour
             renderer.material.SetTexture("_FourteenthSourceTex", renderTextures[0]);
             renderer.material.SetTexture("_FifteenthSourceTex", renderTextures[0]);
             renderer.material.SetTexture("_SixteenthSourceTex", renderTextures[0]);
+
+            text.text = offString;
         }
         Debug.Log((antialiasingEnabled ? "On." : "Off.") + " " + (using1080 ? "High res." : "Low res."));
     }
