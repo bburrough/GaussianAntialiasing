@@ -1,6 +1,6 @@
 # Gaussian Anti-aliasing
 
-Gaussian anti-aliasing is a improves image quality by randomly sampling the geometry within a pixel rather than sampling the geometry at the pixel center. The idea is brought over from ray-tracing where the color of a pixel is determined by randomly sampling geometry within the pixel many times and averaging the result. It achieves perceptual smoothing of rendered images with zero impact to rendering performance.
+Gaussian anti-aliasing is a improves image quality by randomly sampling the geometry within a pixel rather than sampling the geometry at the pixel center. The idea is brought over from ray-tracing where the color of a pixel is determined by randomly sampling geometry within each pixel. It achieves perceptual smoothing of rendered images with zero impact to rendering performance.
 
 ![screenshot](https://user-images.githubusercontent.com/12551477/135394232-5b979530-fb7a-45f1-a09f-3419ad722a04.png)
 
