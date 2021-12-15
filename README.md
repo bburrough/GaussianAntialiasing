@@ -5,7 +5,7 @@ Gaussian anti-aliasing is a improves image quality by randomly sampling the geom
 ![screenshot](https://user-images.githubusercontent.com/12551477/135394232-5b979530-fb7a-45f1-a09f-3419ad722a04.png)
 
 \
-Under traditional [rasterization](https://en.wikipedia.org/wiki/Rasterisation) procedures, the color of a pixel is determined by checking whether a triangle overlaps the pixel at its exact center. This leads to a grating pattern commonly known as jaggies. Instead of sampling geometry at exact pixel centers, Gaussian anti-aliasing samples a random point within each pixel. As this occurs repeatedly as is the case with realtime 3D content, the perceived color of the pixel converges towards a more accurate depiction of the geometry that lies within that pixel. 
+Under traditional [rasterization](https://en.wikipedia.org/wiki/Rasterisation) procedures, the color of a pixel is determined by checking whether a triangle overlaps the pixel at its exact center. This leads to a grating pattern commonly known as jaggies. Instead of sampling geometry at exact pixel centers, Gaussian anti-aliasing samples a random point within each pixel. As this occurs repeatedly as in the case with realtime renderered content, the perceived color of the pixel converges towards a more accurate depiction of the geometry that lies within that pixel. 
 
 https://user-images.githubusercontent.com/12551477/138059517-0ef61833-b336-4361-8afb-06e902ff11f4.mp4
 
